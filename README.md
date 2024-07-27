@@ -14,4 +14,4 @@ xsub_val键对应的值发现查看列表长度length的时候同样遇到了缺
 
 当然处理pkl这个代码还有一个功能是把xview_train键及其对应的值删除，把xview_val键及其对应的值删除。
 
-### 注意这里的xsub数据集的list列表里面的Train路径和Test路径是已经处理过缺失值之后的结果
+
