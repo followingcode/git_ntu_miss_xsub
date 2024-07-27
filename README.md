@@ -1,6 +1,6 @@
 ## 问题描述
-使用Cross Subject方式划分NTU RGB+D数据集遇到的缺失值，这个是在查看pyskl仓库NTURGB+D [2D Skeleton]的时候发现的
-
+在查看pyskl仓库NTURGB+D [2D Skeleton]的时候发现，使用Cross Subject方式将NTU RGB+D数据集划分为训练集和测试集，遇到了缺失值
+链接在下面
 https://download.openmmlab.com/mmaction/pyskl/data/nturgbd/ntu60_hrnet.pkl
 
 ## 需求
@@ -13,9 +13,9 @@ xsub_val键对应的值发现查看列表长度length的时候同样遇到了缺
 
 ## 解决方案
 
-处理pkl这个代码就是来找这些缺失值是哪些的
+处理pkl.py就是来找这些缺失值是哪些的
 
 ## 附带需求
-当然处理pkl这个代码还有一个功能是把xview_train键及其对应的值删除，把xview_val键及其对应的值删除。
+当然处理pkl.py还有一个功能是把xview_train键及其对应的值删除，把xview_val键及其对应的值删除。
 
 
