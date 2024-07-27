@@ -1,6 +1,6 @@
 ## 问题描述
 在查看pyskl仓库NTURGB+D [2D Skeleton]的时候发现，使用Cross Subject方式将NTU RGB+D数据集划分为训练集和测试集，遇到了缺失值
-链接在下面
+链接：
 https://download.openmmlab.com/mmaction/pyskl/data/nturgbd/ntu60_hrnet.pkl
 
 ## 需求
