@@ -47,4 +47,4 @@ def writeList(dirpath, name):
 
     mwlines(lines, name)
 
-writeList(r'/root/autodl-tmp/Cross-View', '/root/pyskl/until/xview_train_test_total.list')
+writeList(r'/root/autodl-tmp/Cross-Subject', '/root/pyskl/until/xsub_train_test_total.list')
